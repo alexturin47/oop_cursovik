@@ -34,7 +34,7 @@ namespace oop_cursovik
             bcg = Color.White;
             bitmap = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             g = Graphics.FromImage(bitmap);
-
+            
             cX = pictureBox1.Width / 2;     // устанвливем центр экрана
             cY = pictureBox1.Height / 2;
 
